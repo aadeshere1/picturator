@@ -5,9 +5,7 @@ defmodule Identicon do
     |> color_picker
   end
 
-  def color_picker(image) do
-    %Identicon.Image{hex: [r, g, b | _tail]} = image
-
+  def color_picker(%Identicon.Image{hex: [r, g, b | _tail]} = image) do
     %Identicon.Image{image | color: {r, g, b}}
   end
 
