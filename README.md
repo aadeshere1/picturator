@@ -19,3 +19,6 @@ end
 ```
 Identicon.main("Your text")
 ```
+
+## Result
+
