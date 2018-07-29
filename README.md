@@ -22,3 +22,4 @@ Identicon.main("Your text")
 
 ## Result
 
+![alt text](https://raw.githubusercontent.com/aadeshere1/picturator/master/Your%20text.png "Your Text")
